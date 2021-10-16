@@ -4,33 +4,33 @@
 body {
      background-color: blanchedalmond;
      color: black;
-     margin-left: 4%;
-     margin-right: 4%;
+     margin-left: 1vw;
+     margin-right: 1vw
 }
 
 h1 {
      color: blue;
-     font-size: 8vw;
+     font-size: 6vw;
      margin-bottom: 0%;
 }
 
 h3 {
      color: blue;
-     font-size: 4vw;
-     margin: 1% 0 5%;
+     font-size: 3vw;
+     margin-top: .5vh;
 }
 
 h5 {
-     font-size: 2.5vw;
-     margin: 1% 0 5%;
+     font-size: 2vw;
+     margin: 2vh;
 }
 
 p {
      padding: 0%;
 }
 
-img {
-     padding: 0;
+.kids {
+     height: 80%;
 }
 
 .toggle-btn {
@@ -43,39 +43,8 @@ img {
      color: white;
 }
 
-.kids {
-     display: inline;
-     width: 15vw;
-     height: auto;
-}
 
-.family-img {
-     padding: 0;
-}
-
-.parent-column {
-     width: 16vw;
-     display: static;
-}
-
-.parent-row {
-     /* width: 20vw; */
-     display: static;
-}
-
-#kids-top-row {
-     width: 100%;
-     margin: 5rem 0.25rem 0.25rem 0.25rem;
-     padding: 0.25rem;
-     display: inline-block;
-}
-
-#kids-bottom-row {
-     width: 100%;
-     margin: 0 0.25rem 0.25rem 0.25rem;
-     padding: 0;
-     display: inline-block;
-}
+/* Home Page Photo Blocks */
 
 #header-text {
      margin: 1vw;
@@ -84,7 +53,6 @@ img {
 }
 
 #parent {
-     width: 20vw;
      margin: 0;
      padding: 0;
 }
@@ -97,41 +65,18 @@ img {
 #PhotoBlock {
      display: flex;
      flex-flow: row;
-     max-height: 20vh;
+     height: 25vh;
+     align-items: center;
      justify-content: space-around;
      align-items: center;
 }
 
 #ParentBlock {
      display: flex;
+     height: 100%;
      flex-grow: 2;
      flex-flow: column;
      justify-content: space-around;
-}
-
-#KidsBlock {
-     display: flex;
-     flex-grow: ;
-     flex-flow: column;
-     
-}
-#GirlsBlock {
-     flex-grow: 3;
-     display: flex;
-     flex-flow: row;
-}
-
-#GuysBlock {
-     flex-grow: 3;
-     display: flex;
-     flex-flow: row;
-}
-
-#FamilyBlock {
-     width: 30vw;
-     flex-grow: 3;
-     display: flex;
-     flex-flow: column;
 }
 
 #PetBlock {
@@ -142,3 +87,32 @@ img {
      align-items: center;
      margin-top: 15vw;
 }
+
+#KidsBlock {
+     display: flex;
+     height: 100%;
+     flex-grow: 3;
+     flex-flow: column;
+     justify-content: space-around;
+}
+
+#GirlsBlock {
+          flex-grow: 3;
+          display: flex;
+          flex-flow: row;
+          justify-content: space-around;
+     }
+
+     #GuysBlock {
+          flex-grow: 3;
+          display: flex;
+          flex-flow: row;
+          justify-content: space-around;
+     }
+
+     #FamilyBlock {
+          height: 90%;
+          flex-grow: 3;
+          display: flex;
+          flex-flow: column;
+     }
